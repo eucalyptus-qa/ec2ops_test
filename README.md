@@ -1,3 +1,22 @@
+
+ec2ops_test
+===========
+
+## Description
+
+Basic EC2 tools operations check -- ensure that Eucalyptus is handling EC2 operations correctly
+
+## Procedure
+
+1. Add keypairs, groups, addresses
+2. Choose a random EMI
+3. Run that instance
+4. Get the list of running instances and make sure that there is 1 running
+5. Remove keypairs, groups, addresses
+
+
+<hr><hr><hr>
+
 # Eucalyptus Testunit Framework
 
 Eucalyptus Testunit Framework is designed to run a list of test scripts written by Eucalyptus developers.
